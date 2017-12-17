@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/Projects/Blockchain/xmrig/src/3rdparty/libcpuid/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeDetermineASM_MASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeDetermineCompilerId.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCompilerIdDetection.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeFindBinUtils.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeASMCompiler.cmake.in
+D:/Projects/Blockchain/xmrig/build/CMakeFiles/3.9.4/CMakeASM_MASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeASM_MASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeTestASM_MASMCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeTestASMCompiler.cmake

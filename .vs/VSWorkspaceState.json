@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cmake",
+    "\\res",
+    "\\src",
+    "\\src\\3rdparty",
+    "\\src\\3rdparty\\getopt",
+    "\\src\\3rdparty\\libcpuid",
+    "\\src\\3rdparty\\rapidjson",
+    "\\src\\3rdparty\\rapidjson\\error",
+    "\\src\\3rdparty\\rapidjson\\internal"
+  ],
+  "SelectedNode": "\\src\\donate.h",
+  "PreviewInSolutionExplorer": false
+}

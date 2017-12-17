@@ -1,0 +1,5 @@
+D:/Projects/Blockchain/xmrig/build/CMakeFiles/xmrig.dir
+D:/Projects/Blockchain/xmrig/build/CMakeFiles/ALL_BUILD.dir
+D:/Projects/Blockchain/xmrig/build/CMakeFiles/ZERO_CHECK.dir
+D:/Projects/Blockchain/xmrig/build/src/3rdparty/libcpuid/CMakeFiles/cpuid.dir
+D:/Projects/Blockchain/xmrig/build/src/3rdparty/libcpuid/CMakeFiles/ALL_BUILD.dir
