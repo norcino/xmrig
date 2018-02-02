@@ -64,7 +64,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -74,7 +74,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -84,7 +84,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -94,7 +94,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

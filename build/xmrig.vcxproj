@@ -84,7 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,14 +101,14 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <MASM>
       <PreprocessorDefinitions>WIN32;_WINDOWS;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(IncludePaths)</IncludePaths>
+      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(IncludePaths)</IncludePaths>
     </MASM>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,7 +116,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files\libuv\libuv.lib;..\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\VS2017\Release-static\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\Debug\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\dependencies\libuv\x64\lib\libuv.lib;..\dependencies\libmicrohttpd\x64\lib\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\Debug\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -132,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -151,14 +151,14 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <MASM>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(IncludePaths)</IncludePaths>
+      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(IncludePaths)</IncludePaths>
     </MASM>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,7 +166,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files\libuv\libuv.lib;..\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\VS2017\Release-static\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\Release\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\dependencies\libuv\x64\lib\libuv.lib;..\dependencies\libmicrohttpd\x64\lib\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\Release\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -182,7 +182,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -198,14 +198,14 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <MASM>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(IncludePaths)</IncludePaths>
+      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(IncludePaths)</IncludePaths>
     </MASM>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,7 +213,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files\libuv\libuv.lib;..\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\VS2017\Release-static\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\MinSizeRel\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\dependencies\libuv\x64\lib\libuv.lib;..\dependencies\libmicrohttpd\x64\lib\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\MinSizeRel\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -229,7 +229,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -245,14 +245,14 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <MASM>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_SSE2;__STDC_FORMAT_MACROS;UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(IncludePaths)</IncludePaths>
+      <IncludePaths>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(IncludePaths)</IncludePaths>
     </MASM>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\MinGW\shared\mingw64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;C:\Program Files\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\Blockchain\xmrig\src\3rdparty\libcpuid;D:\Projects\Blockchain\xmrig\dependencies\libmicrohttpd\x64\include;D:\Projects\Blockchain\xmrig\src;D:\Projects\Blockchain\xmrig\src\3rdparty;D:\Projects\Blockchain\xmrig\dependencies\libuv\x64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -260,7 +260,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>C:\Program Files\libuv\libuv.lib;..\dependencies\libmicrohttpd-0.9.58-w32-bin\x86_64\VS2017\Release-static\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\RelWithDebInfo\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\dependencies\libuv\x64\lib\libuv.lib;..\dependencies\libmicrohttpd\x64\lib\libmicrohttpd.lib;ws2_32.lib;psapi.lib;iphlpapi.lib;userenv.lib;src\3rdparty\libcpuid\RelWithDebInfo\cpuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
